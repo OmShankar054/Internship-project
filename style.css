@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fdf7f7;
+    position: relative;
+}
+
+.nav1{
+    height: 40px;
+    width:100%;
+    background-color: rgb(230, 182, 182);
+    display: flex;
+    align-items:end;
+    padding: 5px 30px;
+}
+.nav1 h4{
+    position: relative;
+     top: 5%;
+     left: 70%;
+     border: 30px;
+     padding: 4px 8px;
+}
+.nav1 button{
+    position: relative;
+     top: 5%;
+     left: 75%;
+     border-radius: 3px;
+     padding: 4px 8px;
+}
+header{
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    height: 110px;
+    margin-right: 20x;
+    padding: 5px;
+}
+.slogan{
+    font-size: 20px;
+    line-height: 1.2;
+    color: rgb(0, 6, 8);
+    padding: 19px ;
+}
+.slogan  p{
+    margin: 0%;
+    font-size: 13px;
+    align-items: center;
+}
+ 
+nav{ 
+    align-items: center;
+    flex-grow: 0.8;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-links li{
+    margin: 5px 8px;
+    font-size: large;
+}
+.nav-links a{
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-links a:hover{
+    color:  #007BFF;
+
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 25px;
+    margin: 20px;
+    box-shadow: chocolate;
+}
+.message{
+    width: 60%;
+}
+    
+.image{
+    height: 20%;
+    width: 30%;
+    text-align: center;
+} 
+.chief-minister{
+    width: 100%;
+    border-radius: 10px;
+}
+.caption {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007BFF;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
