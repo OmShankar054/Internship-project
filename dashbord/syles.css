@@ -1,0 +1,81 @@
+.backhround {
+    background: linear-gradient(300deg, #d8a20d, #e6e5e2c9, #04d508);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+
+.status-box {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.status-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(16, 219, 50, 0.779);
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: 2px solid #4A5568;
+    font-family: Arial, sans-serif;
+    animation: fadeIn 2s;
+}
+th, td {
+    border: 2px solid #4A5568;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #2D3748;
+    color: white;
+}
+td {
+    background-color: #F7FAFC;
+    color: #2D3748;
+}
+tbody tr:hover {
+    background-color: #E2E8F0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInUp {
+    animation: fadeInUp 0.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
