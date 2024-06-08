@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.nav1{
+  height: 40px;
+  width:100%;
+  background-color: rgb(230, 182, 182);
+  display: flex;
+  align-items:end;
+  padding: 5px 30px;
+}
+.nav1 h4{
+  position: relative;
+   top: 5%;
+   left: 70%;
+   border: 30px;
+   padding: 4px 8px;
+}
+.nav1 button{
+  position: relative;
+   top: 5%;
+   left: 75%;
+   border-radius: 3px;
+   padding: 4px 8px;
+}
+header{
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ddd;
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.logo{
+  height: 110px;
+  margin-right: 20x;
+  padding: 5px;
+}
+.slogan{
+  font-size: 20px;
+  line-height: 1.2;
+  color: rgb(0, 6, 8);
+  padding: 19px ;
+}
+.slogan  p{
+  margin: 0%;
+  font-size: 13px;
+  align-items: center;
+}
+
+nav{ 
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1.8;
+}
+
+nav.btn1 {
+  justify-content: space-evenly;
+  padding: 10px 20px; /* Example padding */
+  text-align: center; /* Center-align text */
+  text-decoration:solid; /* Remove underline from links */
+  display: inline-block; /* Example display property */
+  border-radius: 1px; /* Example border radius */
+  font-size: 22px; /* Example font size */
+}
+
+ 
+ 
+ 
+.container{
+  padding: 90px ;
+  display: flex;
+  align-items: center ;
+  justify-content: center;  
+}
+#card{
+    justify-content: center;
+    border: 10px;
+    height: 530px;
+    width: 400px;
+    padding: 30px;
+    background-color: #d7fcd8;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#card img{
+    height: 35%;
+    width: 45%;
+    z-index: index 10;; 
+    object-position: center;
+     
+}
+#card h1{
+    font-size: 25px;
+    margin: 10px 5px;
+    font-weight:700;
+    color: darkslateblue;
+}
+#card h4{
+    font-size: 21px;
+    color: rgba(6, 14, 244, 0.973);
+    margin-bottom: 20px;
+}
+
+form {
+    display: block;
+    width: 100%;
+    padding: 2em;
+    }
+  input {
+    text-align: left;
+    box-shadow: #ecd8d8;
+    display: block;
+    margin: auto auto;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: .5em 2em;
+    border-color: 3px rgb(239, 209, 209);
+    border-radius:5px;
+    padding-bottom: 1.25em;
+  }
+
+.forgot{
+  position: absolute;
+  font-size: 16px;
+  padding:  0px 20px;
+}
+
+.forgot.forgot{
+  font-size: medium;
+  color: #227102;
+  
+  
+
+}
+
+  .btn {
+    display: inline-block;
+    background: rgb(23, 142, 15);
+    border-radius: 4px  ;
+    padding: 10px 112px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    background-color: #227102;
+    color: azure;
+  }
+ 
